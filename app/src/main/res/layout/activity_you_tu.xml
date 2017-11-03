@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.aaa.YouTu">
+
+    <EditText
+        android:id="@+id/et_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:hint="影片"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/et_movie"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="影集"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_yutu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_album"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="送出" />
+</RelativeLayout>
